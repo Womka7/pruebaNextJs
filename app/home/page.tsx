@@ -5,10 +5,10 @@ export default function Home() {
       <div>
         <h1>Home Page</h1>
         <Link href="/admin">
-          Go to Admin Page
+        <strong> Go to Admin Page</strong>
         </Link> <br />
         <Link href="/">
-        Go to Index1
+        <strong> Go to Index1</strong>
       </Link>
 
       </div>

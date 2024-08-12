@@ -5,11 +5,11 @@ export default function Admin() {
     <div>
       <h1>Admin Page</h1>
       <Link href="/home">
-        Go to Home Page
+      <strong> Go to Home Page</strong>
       </Link> <br />
-      
+
       <Link href="/">
-        Go to Index1
+      <strong>  Go to Index1 </strong>
       </Link>
     </div>
   );
