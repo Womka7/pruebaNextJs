@@ -2,16 +2,19 @@
 
 import Image from "next/image";
 import Link from 'next/link';
-import Icon from "./components/Icon";
-import Button from "./components/Button";
-
+import Icon from "../components/Icon";
+import Button from "../components/Button";
+import { useTranslations } from "next-intl";
 
 export default function Home() {
+  
+  const t = useTranslations("Home");
+
   return (
     <main >
 
-
-      <h1>Index1</h1>
+    
+      <h1>{t("text")}</h1>
 
       <Link href="/home">
         Go to Home Page
